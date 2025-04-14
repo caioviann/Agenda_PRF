@@ -1,0 +1,207 @@
+/*import url('/resources/css/font-awesome/font-awesome.min.css');*/
+
+* {
+    font-family: 'FontAwesome';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    flex: 1;
+  }
+
+.main-footer{
+    background-color: rgb(243, 215, 18);
+    padding: 1em;
+    color: #444;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    border-top: 1px solid rgb(228, 202, 16);
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+
+}
+@media (max-width:767px) {
+    .main-content, .main-footer {
+        margin-left: 0;
+    }
+}
+
+.main-content, .main-footer {
+    -webkit-transition: -webkit-transform .3s ease-in-out, margin .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out, margin .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out, margin .3s ease-in-out;
+    transition: transform .3s ease-in-out, margin .3s ease-in-out;
+    margin-left: 0px;
+    z-index: 820;
+}
+
+.main-header{
+    position: relative;
+    max-height: 3.1em;
+    z-index: 1030;
+    max-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-header > .navbar {
+    margin-bottom: 0;
+    margin-left: 0.3em;
+    min-height: 50px;
+    line-height: 1;
+    padding: 0;
+}
+
+.navbar .nome-sistema {
+    float: left; 
+    line-height: 50px; 
+    text-decoration: none; 
+    color: #fff; 
+    margin: 0 15px; 
+    font-size: 28px; 
+    height: 50px; 
+    font-weight: 400;
+}
+
+.navbar .sigla-sistema {
+    float: left; 
+    line-height: 50px; 
+    text-decoration: none; 
+    color: #fff; 
+    margin: 0 15px; 
+    font-size: 28px; 
+    height: 50px; 
+    font-weight: 400;
+    display: none;
+}
+
+.main-header .navbar .nav>li.user>a>.fa {
+    margin-right: 5px;
+}
+
+.main-header{
+    background-color: #150958;
+    
+}
+
+.logo-hidden-sm-down{
+    padding: 3.2em;
+}
+
+.text-muted{
+    color: gray;
+}
+
+/* Estiliza a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estiliza os cabeçalhos */
+  th {
+    background-color: #150958;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  /* Estiliza as células de dados */
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Linhas alternadas com cores diferentes */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Efeito hover */
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsividade: Faz a tabela rolar horizontalmente em telas pequenas */
+  @media (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+
+
+.footer-coteudo{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    margin-right: 3em;
+}
+
+.imagem{
+    height: 5em;
+    margin-left: 20em;
+    margin-top: 1.3em;
+}
+
+
+.img-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    border: 1px solid black;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1.5em 0 0 1.5em;
+}
+.title h2,
+.title p {
+    margin: 0; 
+    padding: 0;
+    text-align: left;
+}
+
+#input-busca{
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #input-busca:focus {
+    border-color: rgb(243, 215, 18);
+    outline: none;
+  }
+  ._input{
+    display: flex;
+    justify-content: center;
+  }
