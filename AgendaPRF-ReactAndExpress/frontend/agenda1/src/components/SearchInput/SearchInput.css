@@ -1,0 +1,12 @@
+#input-busca{
+    width: 98.8%;
+    padding: 10px;
+    border: 2px solid #150958;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #input-busca:focus {
+    border-color: rgb(243, 215, 18);
+    outline: none;
+  }

@@ -1,0 +1,15 @@
+.main-footer{
+    background-color: rgb(243, 215, 18);
+    padding: 1em;
+    color: #444;
+    width: 98.3%;
+    z-index: 0;
+    border-top: 1px solid rgb(228, 202, 16);
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin-top: auto;
+}
+.footer-coteudo{
+    max-width: 100%;
+}

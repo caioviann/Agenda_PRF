@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Estiliza os cabeçalhos */
+  th {
+    background-color: #150958;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  /* Estiliza as células de dados */
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Linhas alternadas com cores diferentes */
+  tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  /* Efeito hover */
+  tr:hover {
+    background-color: #e7e7e7;
+  }
+  
+  /* Responsividade: Faz a tabela rolar horizontalmente em telas pequenas */
+  @media (max-width: 600px) {
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }

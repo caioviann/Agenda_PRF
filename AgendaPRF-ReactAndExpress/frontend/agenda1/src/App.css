@@ -1,0 +1,58 @@
+.imagem{
+    height: 5em;
+    margin-left: 20em;
+    margin-top: 1.3em;
+}
+
+
+.img-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1.3em 0 0 1.3em;
+}
+.title h2,
+.title p {
+    margin: 0; 
+    padding: 0;
+    text-align: left;
+}
+
+
+.img-principal{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-top: 1em;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1.5em 0 0 1.5em;
+}
+.title h2,
+.title p {
+    margin: 0; 
+    padding: 0;
+    text-align: left;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid black;
+  }
